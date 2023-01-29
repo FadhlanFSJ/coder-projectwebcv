@@ -1,0 +1,51 @@
+*{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.profil_header{
+	background-color: red;
+	color: white;
+	text-align: center;
+}
+.profil_header h1{
+	color: white;
+	text-align: center;
+}
+.profil_header a{
+	color: white;
+}
+.profil_header img{
+	border-radius: 50%;
+}
+.pendidikan{
+	text-align: center;
+}
+.pendidikan .kuliah h4{
+	font-style: italic;
+}
+.pendidikan .sma h4{
+	font-style: italic;
+}
+.pendidikan .kuliah ul{
+	list-style: inside;
+}
+.pendidikan .sma ul{
+	list-style: inside;
+}
+.footer {
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	height: 90px;
+	background-color: #cad1df;
+	text-align: center;
+}
+.sosmed:hover{
+	background-color:yellow;
+  	font-size:20px;
+}
+body{
+	background: url("../img/pendidikan.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
